@@ -1,6 +1,6 @@
 # ffmpeg_command_for_mac
 
-Right now for video only.
+Right now for videos only.
 
 ## Usage
 
