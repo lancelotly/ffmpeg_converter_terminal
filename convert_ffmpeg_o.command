@@ -1,5 +1,8 @@
- #!/usr/bin/env bash
-echo "Working direct is `dirname $0`, you should put ffmpeg file and this COMMAND file together here. Download ffmpeg from its official site @ https://ffmpeg.org/download.html"
+#!/bin/bash
+
+echo "Working directory is $(dirname "$0")"
+echo "Download ffmpeg from https://ffmpeg.org/download.html and place it in the working directory."
+
 PS3='Please enter your choice:'
 options=("Quit" "Convert Original" "Convert Down to 1080" "Convert Down to 720" "Convert Down to 480" "Convert Whole Folder - Original" "Convert Whole Folder - 720")
 select opt in "${options[@]}"
